@@ -20,7 +20,7 @@
     "release": "npm run check && npm run build && changeset publish",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "css-check": "ts-node --esm ./scripts/css-check.ts"
+    "css-check": "ts-node --esm ./scripts/css-check.js"
   },
   "dependencies": {
     "npm-run-all": "^4.1.5",
